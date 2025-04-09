@@ -14,7 +14,8 @@
   position: relative;
   display: grid;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 668px;
   padding: 10px 10px 0 10px;
   margin-block-end: 40px;
 }
@@ -209,13 +210,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 102vh;
+  height: 100vh;
+  min-height: 665px;
   padding-left: 14px;
   padding-right: 13px;
 }
 
 @media (width >=768px) {
   .header {
+    min-height: 1024px;
     padding: 20px 20px 20px 0;
     margin-block-end: 60px;
   }
@@ -240,7 +243,7 @@
 
   .header__subtitle {
     width: 364px;
-    margin-block-end: 163px;
+    margin-block-end: 200px;
   }
 
   .decorated-zone::before {
@@ -324,12 +327,16 @@
 
   .footer {
     padding: 20px;
-    min-height: 157vh;
+    min-height: 1024px;
   }
 
 }
 
 @media (width >=1024px) {
+  .header {
+    min-height: 768px;
+  }
+
   .header__theme-menu {
     margin: 0;
     padding: 0;
@@ -382,6 +389,6 @@
   }
 
   .footer {
-    min-height: 118vh;
+    min-height: 768px;
   }
 }
