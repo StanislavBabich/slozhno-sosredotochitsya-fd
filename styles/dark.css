@@ -7,6 +7,7 @@
   --title-shadow-color: #ff0070;
   --outline-decorate: #ff0070;
   --decorated-color: #ff0070;
+  --outline-decorate-rgb: 255, 0, 112;
   --text-color: #f1b2ce;
   --button-color: var(--accent-color);
   --section-text-color: var(--accent-color);
@@ -14,5 +15,11 @@
   --main-font-size: 18px;
   --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --display: block;
 }
 
+@media (prefers-color-scheme: dark) {
+  .page .rec {
+    display: var(--display);
+  }
+}
