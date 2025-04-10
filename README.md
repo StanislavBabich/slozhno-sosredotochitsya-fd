@@ -1,4 +1,4 @@
-https://github.com/StanislavBabich/posmotri-v-okno-fd
+https://github.com/StanislavBabich/slozhno-sosredotochitsya-fd
 
 
 Снова провел работу над ошибками:
